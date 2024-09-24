@@ -2,13 +2,9 @@ package dev.everrynn.compressit.item;
 
 import dev.everrynn.compressit.CompressIt;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item TIED_STICKS = registerItem("tied_sticks", new Item(new FabricItemSettings()));
@@ -17,10 +13,10 @@ public class ModItems {
     public static final Item TIED_KELP = registerItem("tied_kelp", new Item(new FabricItemSettings()));
     public static final Item TIED_NAME_TAGS = registerItem("tied_name_tags", new Item(new FabricItemSettings()));
     public static final Item TIED_ROTTEN_FLESH = registerItem("tied_rotten_flesh", new Item(new FabricItemSettings()));
-    public static final Item TIED_SUGAR_CANE= registerItem("tied_sugar_cane", new Item(new FabricItemSettings()));
-    public static final Item TIED_LEATHER= registerItem("tied_leather", new Item(new FabricItemSettings()));
-    public static final Item STACK_OF_PAPERS= registerItem("stack_of_papers", new Item(new FabricItemSettings()));
-    public static final Item BALL_OF_STRINGS= registerItem("ball_of_strings", new Item(new FabricItemSettings()));
+    public static final Item TIED_SUGAR_CANE = registerItem("tied_sugar_cane", new Item(new FabricItemSettings()));
+    public static final Item TIED_LEATHER = registerItem("tied_leather", new Item(new FabricItemSettings()));
+    public static final Item STACK_OF_PAPERS = registerItem("stack_of_papers", new Item(new FabricItemSettings()));
+    public static final Item BALL_OF_STRINGS = registerItem("ball_of_strings", new Item(new FabricItemSettings()));
     public static final Item BAG_OF_FEATHERS = registerItem("bag_of_feathers", new Item(new FabricItemSettings()));
     public static final Item PACKED_EGGS = registerItem("packed_eggs", new Item(new FabricItemSettings()));
     public static final Item PACKED_GOLDEN_CARROTS = registerItem("packed_golden_carrots", new Item(new FabricItemSettings()));
@@ -73,75 +69,11 @@ public class ModItems {
     public static final Item RED_TULIP_BOUQUET = registerItem("red_tulip_bouquet", new Item(new FabricItemSettings()));
     public static final Item WHITE_TULIP_BOUQUET = registerItem("white_tulip_bouquet", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
-        entries.add(TIED_STICKS);
-        entries.add(TIED_BONES);
-        entries.add(TIED_BLAZE_RODS);
-        entries.add(TIED_KELP);
-        entries.add(TIED_NAME_TAGS);
-        entries.add(TIED_ROTTEN_FLESH);
-        entries.add(TIED_SUGAR_CANE);
-        entries.add(TIED_LEATHER);
-        entries.add(STACK_OF_PAPERS);
-        entries.add(BALL_OF_STRINGS);
-        entries.add(BAG_OF_FEATHERS);
-        entries.add(PACKED_EGGS);
-        entries.add(PACKED_GOLDEN_CARROTS);
-        entries.add(PACKED_CARROTS);
-        entries.add(PACKED_POTATOES);
-        entries.add(BAG_OF_GUNPOWDER);
-        entries.add(BAG_OF_FLINT);
-        entries.add(BAG_OF_CHERRY_SAPLINGS);
-        entries.add(BAG_OF_NETHER_WARTS);
-        entries.add(BAG_OF_MANGROVE_PROPAGULES);
-        entries.add(BAG_OF_BIRCH_SAPLINGS);
-        entries.add(BAG_OF_JUNGLE_SAPLINGS);
-        entries.add(BAG_OF_ACACIA_SAPLINGS);
-        entries.add(BAG_OF_OAK_SAPLINGS);
-        entries.add(BAG_OF_SPRUCE_SAPLINGS);
-        entries.add(BAG_OF_DARK_OAK_SAPLINGS);
-        entries.add(TIED_CANDLES);
-        entries.add(TIED_BLACK_CANDLES);
-        entries.add(TIED_BLUE_CANDLES);
-        entries.add(TIED_BROWN_CANDLES);
-        entries.add(TIED_CYAN_CANDLES);
-        entries.add(TIED_GRAY_CANDLES);
-        entries.add(TIED_GREEN_CANDLES);
-        entries.add(TIED_LIGHT_BLUE_CANDLES);
-        entries.add(TIED_LIGHT_GRAY_CANDLES);
-        entries.add(TIED_LIME_CANDLES);
-        entries.add(TIED_MAGENTA_CANDLES);
-        entries.add(TIED_ORANGE_CANDLES);
-        entries.add(TIED_PINK_CANDLES);
-        entries.add(TIED_PURPLE_CANDLES);
-        entries.add(TIED_RED_CANDLES);
-        entries.add(TIED_WHITE_CANDLES);
-        entries.add(TIED_YELLOW_CANDLES);
-        entries.add(ALLIUM_BOUQUET);
-        entries.add(AZURE_BLUET_BOUQUET);
-        entries.add(BLUE_ORCHID_BOUQUET);
-        entries.add(CORNFLOWER_BOUQUET);
-        entries.add(DANDELION_BOUQUET);
-        entries.add(LILAC_BOUQUET);
-        entries.add(LILY_OF_THE_VALLEY_BOUQUET);
-        entries.add(OXEYE_DAISY_BOUQUET);
-        entries.add(PEONY_BOUQUET);
-        entries.add(POPPY_BOUQUET);
-        entries.add(ROSE_BUSH_BOUQUET);
-        entries.add(SUNFLOWER_BOUQUET);
-        entries.add(WITHER_ROSE_BOUQUET);
-        entries.add(ORANGE_TULIP_BOUQUET);
-        entries.add(PINK_TULIP_BOUQUET);
-        entries.add(RED_TULIP_BOUQUET);
-        entries.add(WHITE_TULIP_BOUQUET);
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registry.ITEM, new Identifier(CompressIt.MOD_ID, name), item);
     }
 
-    private static Item registerItem(String name, Item item){
-        return Registry.register(Registries.ITEM, new Identifier(CompressIt.MOD_ID, name), item);
-    }
-
-    public static void registerModItems(){
-        CompressIt.LOGGER.info("["+CompressIt.MOD_ID+"]: Registering items!");
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((ModItems::addItemsToIngredientItemGroup));
+    public static void registerModItems() {
+        CompressIt.info("Registering items!");
     }
 }

@@ -5,7 +5,7 @@
 	"name": "Compress It!",
 	"description": "Tired of a mess in your inventory? Let us tie some trash for you!",
 	"authors": [
-		"Rynn Lee, DaudAttano"
+		"Rynn Lee", "DaudAttano", "strubium"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/compress-it!",
@@ -25,16 +25,10 @@
 			"dev.everrynn.compressit.CompressItDataGenerator"
 		]
 	},
-	"mixins": [
-		"compress-it.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.1",
+		"minecraft": "~1.19.2",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
