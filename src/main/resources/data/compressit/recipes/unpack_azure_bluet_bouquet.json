@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:azure_bluet",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:azure_bluet_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

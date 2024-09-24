@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:peony",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:peony_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

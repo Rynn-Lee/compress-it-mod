@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:cherry_sapling",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_cherry_saplings"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

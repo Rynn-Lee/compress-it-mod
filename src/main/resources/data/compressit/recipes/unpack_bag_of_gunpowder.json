@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_gunpowder"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

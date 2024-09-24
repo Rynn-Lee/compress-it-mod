@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:name_tag",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_name_tags"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

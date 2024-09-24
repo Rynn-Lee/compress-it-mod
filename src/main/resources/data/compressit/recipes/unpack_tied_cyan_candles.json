@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:cyan_candle",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_cyan_candles"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

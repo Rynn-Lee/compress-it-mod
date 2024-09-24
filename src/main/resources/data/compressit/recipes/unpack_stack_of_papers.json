@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:paper",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:stack_of_papers"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

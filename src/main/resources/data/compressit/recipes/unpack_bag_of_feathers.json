@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:feather",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_feathers"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:allium",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:allium_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

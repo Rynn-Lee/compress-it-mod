@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:tulip",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:white_tulip_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

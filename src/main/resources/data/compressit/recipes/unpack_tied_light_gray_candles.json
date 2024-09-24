@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:light_gray_candle",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_light_gray_candles"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

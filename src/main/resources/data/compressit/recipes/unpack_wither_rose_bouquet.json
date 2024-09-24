@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:wither_rose",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:wither_rose_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

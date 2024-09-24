@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:rose_bush",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:rose_bush_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

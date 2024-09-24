@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:leather",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_leather"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

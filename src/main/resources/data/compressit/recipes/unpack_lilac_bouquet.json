@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:lilac",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:lilac_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

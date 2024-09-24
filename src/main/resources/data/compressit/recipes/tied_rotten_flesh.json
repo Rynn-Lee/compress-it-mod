@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "compressit:tied_rotten_flesh",
+    "count": 1
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "minecraft:rotten_flesh"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:jungle_sapling",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_jungle_saplings"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:string",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:ball_of_strings"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

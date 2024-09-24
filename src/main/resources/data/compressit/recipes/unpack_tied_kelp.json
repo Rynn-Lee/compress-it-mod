@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:kelp",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_kelp"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

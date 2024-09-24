@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:acacia_sapling",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_acacia_saplings"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

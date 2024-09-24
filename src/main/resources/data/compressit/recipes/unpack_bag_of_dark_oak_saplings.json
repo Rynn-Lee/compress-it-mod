@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:dark_oak_sapling",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_dark_oak_saplings"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "compressit:ball_of_strings",
+    "count": 1
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "minecraft:string"
+    }
+  }
+}

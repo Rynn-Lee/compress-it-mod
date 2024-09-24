@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:dandelion",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:dandelion_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

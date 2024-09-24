@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "compressit:stack_of_papers",
+    "count": 1
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "minecraft:paper"
+    }
+  }
+}
