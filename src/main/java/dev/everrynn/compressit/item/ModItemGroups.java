@@ -6,6 +6,11 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
+/**
+ * Adds the items to the custom creative tab
+ *
+ * @author Everrynn
+ */
 public class ModItemGroups {
 
     public static final ItemGroup COMPRESSIT_GROUP = FabricItemGroupBuilder.create(
