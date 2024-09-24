@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_rotten_flesh"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

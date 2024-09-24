@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "compressit:lily_of_the_valley_bouquet",
+    "count": 1
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:nether_wart",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_nether_warts"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

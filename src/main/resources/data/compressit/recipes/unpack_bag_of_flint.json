@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:flint",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_flint"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

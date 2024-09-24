@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:packed_ender_pearls"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

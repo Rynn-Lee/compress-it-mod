@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:sticks",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_sticks"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

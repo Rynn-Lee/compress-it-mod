@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:blaze_rod",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_blaze_rods"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

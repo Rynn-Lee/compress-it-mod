@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:sunflower",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:sunflower_bouquet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:mangrove_propagule",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:bag_of_mangrove_propagules"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

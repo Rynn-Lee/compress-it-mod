@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "compressit:tied_name_tags",
+    "count": 1
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "minecraft:name_tag"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:sugar_cane",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:tied_sugar_cane"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

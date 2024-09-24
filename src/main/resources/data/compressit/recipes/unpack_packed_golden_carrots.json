@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:golden_carrot",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "compressit:packed_golden_carrots"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

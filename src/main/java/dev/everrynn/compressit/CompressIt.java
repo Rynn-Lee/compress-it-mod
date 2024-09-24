@@ -16,4 +16,10 @@ public class CompressIt implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
+
+	public static void info(String text){
+		LOGGER.info("[" + CompressIt.MOD_ID + "]: " + text);
+
+	}
+
 }
