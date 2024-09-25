@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "compressit:tied_candles",
+    "compressit:tied_black_candles",
+    "compressit:tied_blue_candles",
+    "compressit:tied_brown_candles",
+    "compressit:tied_gray_candles",
+    "compressit:tied_green_candles",
+    "compressit:tied_light_blue_candles",
+    "compressit:tied_light_gray_candles",
+    "compressit:tied_lime_candles",
+    "compressit:tied_magenta_candles",
+    "compressit:tied_orange_candles",
+    "compressit:tied_pink_candles",
+    "compressit:tied_purple_candles",
+    "compressit:tied_red_candles",
+    "compressit:tied_white_candles",
+    "compressit:tied_yellow_candles",
+    "compressit:tied_cyan_candles"
+  ]
+}
