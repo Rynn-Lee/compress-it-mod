@@ -11,7 +11,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "M": {
-      "item": "minecraft:sticks"
+      "item": "minecraft:stick"
     }
   }
 }
