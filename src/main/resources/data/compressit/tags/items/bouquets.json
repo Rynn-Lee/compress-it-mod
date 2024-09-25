@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "compressit:allium_bouquet",
+    "compressit:azure_bluet_bouquet",
+    "compressit:blue_orchid_bouquet",
+    "compressit:cornflower_bouquet",
+    "compressit:dandelion_bouquet",
+    "compressit:lilac_bouquet",
+    "compressit:lily_of_the_valley_bouquet",
+    "compressit:oxeye_daisy_bouquet",
+    "compressit:peony_bouquet",
+    "compressit:poppy_bouquet",
+    "compressit:rose_bush_bouquet",
+    "compressit:sunflower_bouquet",
+    "compressit:wither_rose_bouquet",
+    "compressit:orange_tulip_bouquet",
+    "compressit:pink_tulip_bouquet",
+    "compressit:red_tulip_bouquet",
+    "compressit:white_tulip_bouquet"
+  ]
+}
